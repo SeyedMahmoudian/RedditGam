@@ -13,7 +13,7 @@ class telegramBot:
     def telegram(self):
         token = '' # put the token from telegram here
         myBot = bot.Bot(token)
-        url = "C:\\Users\\Amin\\Documents\\MEGA\\pythons\\redditGam\\NatureIsFuckingLit\\_pic.jpg"
+        url = "" # put your directory here
         photo = open(url.encode('utf-8'), 'rb')
         myBot.sendPhoto(chat_id='', photo=photo, caption=self.name) # put the chat_id recieved from telegram here 
         photo.close()
