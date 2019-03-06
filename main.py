@@ -3,7 +3,7 @@ import telegramBot
 import os
 import time
 
-directory = "C:\\Users\\Amin\\Documents\\MEGA\\pythons\\redditGam\\NatureIsFuckingLit\\"
+directory = "" #put the directory of the folder here
 
 
 def main():
